@@ -16,7 +16,7 @@ app.use(express.json());
 let genAIInstance: GoogleGenAI | null = null;
 function getGenAI(): GoogleGenAI {
   const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey || apiKey === "MY_GEMINI_API_KEY" || apiKey.trim() === "") {
+  if (!apiKey || apiKey === "AQ.Ab8RN6KmoU_EeLYdbXiJgeGFZuKZ2Y-bfPur-ixGi2EzJdtzzQ" || apiKey.trim() === "") {
     throw new Error(
       "GEMINI_API_KEY is not configured. Please add it in Settings > Secrets."
     );
