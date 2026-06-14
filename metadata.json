@@ -1,0 +1,6 @@
+{
+  "name": "Gemini Playground",
+  "description": "Un clon elegante y avanzado de Gemini que permite seleccionar el modelo de Google y ajustar parámetros como temperatura, tokens de salida y sistema en cada interacción.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
